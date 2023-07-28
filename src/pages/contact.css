@@ -1,0 +1,55 @@
+/* Contact.css */
+.contact {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .contact:hover {
+    transform: translateY(-5px);
+  }
+  
+  .contact-image {
+    margin-right: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .contact-info {
+    color: #333;
+  }
+  
+  .contact-info h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .contact-info p {
+    margin: 0;
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Center the contact component in the container */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  

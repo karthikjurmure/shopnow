@@ -1,9 +1,11 @@
 .shopTitle {
+    color: rgb(251, 4, 131);
     margin-top: 100px;
     text-align: center;
     font-size: 40px;
   }
   .products {
+    color: rgb(251, 4, 131);
     width: 100%;
     height: auto;
     display: grid;
@@ -37,7 +39,7 @@
   
   .addToCartBttn {
     background-color: transparent;
-    border: 2px solid rgb(19, 19, 19);
+    border: 2px solid rgb(251, 4, 131);;
     min-width: 100px;
     padding-left: 10px;
     padding-right: 10px;
@@ -48,6 +50,6 @@
   
   .addToCartBttn:hover {
     background-color: rgb(19, 19, 19);
-    color: white;
+    color: rgb(255, 0, 204);
     cursor: pointer;
   }
